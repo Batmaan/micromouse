@@ -102,7 +102,6 @@ main(int argc, char* argv[])
     }
   // Infinite loop, never return.
 }
-
 #pragma GCC diagnostic pop
 
 // ----------------------------------------------------------------------------
