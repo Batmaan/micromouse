@@ -11,6 +11,11 @@
 #include "Timer.h"
 #include "BlinkLed.h"
 
+//saját header include
+#include "Eszti.h"
+#include "Poli.h"
+#include "Batman.h"
+
 // ----------------------------------------------------------------------------
 //
 // STM32F1 led blink sample (trace via NONE).
