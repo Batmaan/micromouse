@@ -12,9 +12,8 @@
 #include "BlinkLed.h"
 
 //saját header include
-#include "src\Eszti\Eszti.h"
-#include "Poli.h"
-#include "Batman.h"
+//
+
 
 // ----------------------------------------------------------------------------
 //
@@ -71,7 +70,7 @@ main(int argc, char* argv[])
   // for example when running tests with semihosting you can pass various
   // options to the test.
   // trace_dump_args(argc, argv);
-  Motorproba();
+
   // Send a greeting to the trace device (skipped on Release).
   trace_puts("Hello ARM World!");
 
