@@ -13,7 +13,9 @@
 
 //saját header include
 //
-
+#include "Dani/Dani.h"
+#include "Eszti/Eszti.h"
+#include "Poli/Poli.h"
 
 // ----------------------------------------------------------------------------
 //
