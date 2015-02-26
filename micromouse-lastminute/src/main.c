@@ -13,7 +13,7 @@
 
 //saját header include
 //
-#include "Dani/Dani.h"
+#include "Dani/DaniPeripheral.h"
 #include "Eszti/Eszti.h"
 #include "Poli/Poli.h"
 
@@ -91,7 +91,7 @@ main(int argc, char* argv[])
   blink_led_init();
   
   uint32_t seconds = 0;
-
+  Dani_Init();
   // Infinite loop
   while (1)
     {
