@@ -7,6 +7,7 @@
 #include "Dani/plib/stm32f10x_usart.h"
 #include "Dani/plib/stm32f10x_adc.h"
 #include "Dani/plib/stm32f10x_tim.h"
+#include "Dani/plib/stm32f10x_dma.h"
 
 #ifndef DANI_DANI_H_
 #define DANI_DANI_H_
@@ -173,7 +174,6 @@ void ADCInit(void)
 	DMA_InitStruct.DMA_Mode = DMA_Mode_Circular;
 	DMA_InitStruct.DMA_Priority = DMA_Priority_High;
 	//DMA_Init(DMA1_Channel1,	&DMA_InitStruct);
-
 	DMA_Init(DMA1_Channel1, &DMA_InitStruct);
 	//
 	DMA_InitStruct.DMA_PeripheralBaseAddr = (uint32_t) & ADC2->DR; //ADC13's data register
